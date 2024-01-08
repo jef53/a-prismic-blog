@@ -1,0 +1,60 @@
+.container {
+  position: relative;
+  max-width: 1440px;
+  margin: 0rem auto;
+  padding: 4rem 2rem;
+}
+
+.posts {
+  padding-top: 4rem;
+  position: absolute;
+  align-items: center;
+  a {
+    display: block;
+    margin-bottom: 3rem;
+  }
+
+  strong {
+    display: block;
+    font-size: 1.75rem;
+    font-weight: 700;
+    color: var(--heading);
+    padding-bottom: 1rem;
+    cursor: pointer;
+  }
+
+  h6 {
+    font-size: 1.125rem;
+    font-weight: 100;
+    line-height: 21.78px;
+    padding-bottom: 1rem;
+  }
+
+  time {
+    position: relative;
+    display: inline-block;
+    font-size: 0.875rem;
+    margin-right: 2rem;
+    padding-left: 0.5rem;
+  }
+
+  p {
+    position: relative;
+    display: inline-block;
+    font-size: 0.875rem;
+    font-weight: 400;
+    margin-right: 2rem;
+    padding-left: 0.5rem;
+  }
+
+  button {
+    display: inline-block;
+    background: none;
+    border: none;
+    color: var(--highlight);
+    text-align: justify;
+    font-size: 1.1rem;
+    font-weight: 600;
+    line-height: 1.2rem;
+  }
+}
